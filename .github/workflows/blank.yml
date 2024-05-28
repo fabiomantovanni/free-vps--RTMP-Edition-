@@ -35,9 +35,9 @@ jobs:
 
       - name: Setting up the desktop
         run: |
-             apt install xrdp
+             sudo apt install xrdp
              ngrok config add-authtoken 2h6qNhs62Epq6cIxpKnlZVRMo0A_7KTWLfuijGeQt1ZYy6KGZ
-             service xrdp restart
-             passwd -d
+             sudo service xrdp restart
+             sudo passwd -d
              ngrok tcp 3389 --region sa
              
