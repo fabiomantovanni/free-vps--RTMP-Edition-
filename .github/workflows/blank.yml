@@ -38,6 +38,6 @@ jobs:
              sudo apt install xrdp firefox
              ngrok config add-authtoken 2h6qNhs62Epq6cIxpKnlZVRMo0A_7KTWLfuijGeQt1ZYy6KGZ
              sudo service xrdp restart
-             sudo passwd -d
+             sudo passwd -d root
              ngrok tcp 3389
              
