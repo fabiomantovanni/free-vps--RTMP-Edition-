@@ -38,5 +38,5 @@ jobs:
              set timeout -1
              spawn DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AdLIrYd7u8JRn3ecexcqwtP8dD0H8mO88mpmMagkX5Pj6dJmv9Hx-J6LgR9d0V21paPj4g" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=[exec hostname]
              expect "Enter a PIN of at least six digits:"
-             send "seu_pin\r"
+             send "123456\r"
              interact
