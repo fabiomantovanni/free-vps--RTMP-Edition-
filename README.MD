@@ -8,7 +8,3 @@ This works with the Github actions. We create a machine and this will work for 5
 So simple, you only need to go in actions tab (https://github.com/humfla123/free-vps--RTMP-Edition-/actions), and run your machine.
 But before, you need to fork this repository and change the api key and another things in code, so, THIS ISN'T A THING FOR PEOPLE WHICH DON'T KNOW HOW TO CREATE CODES.
 We recommend you to read the code and finally use!
-
-# 3: How this works (Expert explanation)
-
-We create a script which run the machine 4 in 4 hours.
