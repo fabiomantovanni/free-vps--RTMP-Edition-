@@ -31,7 +31,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Setting up the machine
-        run: sudo apt update && sudo apt install xfce4 && sudo wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb && sudo mv chrome-remote-desktop_current_amd64.deb chrome.deb && chmod 777 chrome.deb && sudo apt install ./chrome.deb
+        run: sudo apt update && sudo apt install xfce4 && sudo wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb && sudo mv chrome-remote-desktop_current_amd64.deb chrome.deb && sudo chmod 777 chrome.deb && sudo apt install ./chrome.deb
 
       - name: Setting up the desktop
-        run: DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AdLIrYfhF8HGk-9MG2ruvyxqb-PfiFj57LGNGzdjNpSvuPshA8xrC7Mw7fa0-WA4TYKiGA" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)
+        run: echo "123456" | DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AdLIrYd7u8JRn3ecexcqwtP8dD0H8mO88mpmMagkX5Pj6dJmv9Hx-J6LgR9d0V21paPj4g" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)
