@@ -31,7 +31,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Setting up the machine
-        run: sudo apt update && sudo apt install xfce4 && sudo wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb && sudo mv chrome-remote-desktop_current_amd64.deb chrome.deb && sudo chmod 777 chrome.deb && sudo apt install ./chrome.deb
+        run: sudo apt update && sudo apt install xfce4 expect && sudo wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb && sudo mv chrome-remote-desktop_current_amd64.deb chrome.deb && sudo chmod 777 chrome.deb && sudo apt install ./chrome.deb
 
       - name: Setting up the desktop
         run: |
